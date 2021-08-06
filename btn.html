@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Btn</title>
+    <link rel="icon" href="img/software.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
+    <style>
+        body{
+            background-color: #f2f2f2;
+        }
+        .container{
+            width: 300px;
+            margin: 200px auto 0 auto;
+            text-align: center;
+            padding: 15px 10px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        .btn{
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: 500;
+            transition: 0.5s;
+            text-decoration: none;
+            text-align: center;
+            margin: 3px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background: #FF0080;
+            border: 1.5px solid #FF0080;
+            color: #ffffff;
+
+        }
+        .btn:active{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border: 1.5px solid #2b7de7;
+        }
+
+        .btn-primary{
+            background-color: #2f89fc;
+            color: #ffffff;
+            border: 1.5px solid #2b7de7;
+        }
+        
+        .btn-primary:active{
+            background-color: #2b7de7;
+            color: #e2e0e0;
+        }
+
+        .btn-outline-primary{
+            background-color: none;
+            color: #2f89fc;
+            border: 1.5px solid #2b7de7;
+        }
+        .btn-outline-primary:active{
+            background-color: #2b7de7;
+            color: #e2e0e0;
+        }
+        .btn-outline-primary:hover{
+            background-color: #2b7de7 !important;
+            color: #e2e0e0 !important;
+            border: 1.5px solid #2b7de7;
+        }
+
+        .btn-secondary{
+            background-color: #30e3ca;
+            color: #ffffff;
+            border: 1.5px solid #30e3ca;
+        }
+        
+        .btn-secondary:active{
+            background-color: #30e3ca;
+            color: #40514e;
+            border: 1.5px solid #30e3ca;
+        }
+        .btn-outline-secondary{
+            background-color: none;
+            color: #30e3ca;
+            border: 1.5px solid #30e3ca;
+        }
+        .btn-outline-secondary:hover, .btn-outline-secondary:active{
+            background-color: #30e3ca !important;
+            color: #40514e !important;
+            border: 1.5px solid #30e3ca !important;
+        }
+
+        .btn-dark{
+            background-color: #40514e;
+            color: #ffffff;
+            border: 1.5px solid #40514e;
+        }
+        
+        .btn-dark:active{
+            background-color: #40514e;
+            color: #cfcfcf;
+            border: 1.5px solid #40514e;
+        }
+        .btn-outline-dark{
+            background-color: none;
+            color: #40514e;
+            border: 1.5px solid #40514e;
+        }
+        .btn-outline-dark:hover, .btn-outline-dark:active{
+            background-color: #40514e !important;
+            color: #cfcfcf !important;
+            border: 1.5px solid #40514e !important;
+        }
+
+        .btn-warning{
+            background-color: #f9ff21;
+            color: #2b7de7;
+            border: 1.5px solid #f9ff21;
+        }
+        
+        .btn-warning:active{
+            background-color: #f9ff21;
+            color: #2771d1;
+            border: 1.5px solid #f9ff21;
+        }
+        .btn-outline-warning{
+            background-color: none;
+            color: #2b7de7;
+            border: 1.5px solid #f9ff21;
+        }
+        .btn-outline-warning:hover,.btn-outline-warning:active{
+            background-color: #f9ff21 !important;
+            color: #2772d3 !important;
+            border: 1.5px solid #f9ff21 !important;
+        }
+
+        .btn-danger{
+            background-color: #ff1f5a;
+            color: #ffffff;
+            border: 1.5px solid #ff1f5a;
+        }
+        
+        .btn-danger:active{
+            background-color: #ff1f5a;
+            color: #ebebeb;
+            border: 1.5px solid #ff1f5a;
+        }
+        .btn-outline-danger{
+            background-color: none;
+            color: #ff1f5a;
+            border: 1.5px solid #ff1f5a;
+        }
+        .btn-outline-danger:hover,.btn-outline-danger:active{
+            background-color: #ff1f5a !important;
+            color: #ffffff !important;
+            border: 1.5px solid #ff1f5a !important;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <section class="container">
+
+        <div class="">
+            <button class="btn btn-primary">Button Tag</button>
+
+            <a href="#" class="btn btn-outline-primary"> A tag button</a>
+            
+        </div>
+        
+        <div class="">
+            
+            <button class="btn btn-secondary">Button Tag</button>
+
+            <a href="#" class="btn btn-outline-secondary"> A tag button</a>
+        </div>
+
+        <div class="">
+            
+            <button class="btn btn-dark">Button Tag</button>
+    
+            <a href="#" class="btn btn-outline-dark"> A tag button</a>
+        
+        </div>
+
+        <div class="">
+            
+            <button class="btn btn-warning">Button Tag</button>
+    
+            <a href="#" class="btn btn-outline-warning"> A tag button</a>
+        
+        </div>
+
+        <div class="">
+            
+            <button class="btn btn-danger">Button Tag</button>
+    
+            <a href="#" class="btn btn-outline-danger"> A tag button</a>
+        
+        </div>
+           
+        
+
+        
+
+        
+
+       
+
+    </section>
+</body>
+</html>
