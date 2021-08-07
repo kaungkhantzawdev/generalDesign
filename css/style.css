@@ -16,7 +16,38 @@ body{
     background-color: #f2f2f2;
 }
 
+/* home btn  */
+.home-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.home-btn{
+    text-decoration: none;
+    padding: 10px 15px ;
+    width: 30%;
+    background-color: #f9ff21;
+    font-weight: 600;
+    border-radius: 6px;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+
+}
+.home-btn:hover{
+    background-color: #FF0080;
+    color: #ffffff;
+}
+.home-btn:active{
+    background-color: #d3026b;
+    color: #cfcece;
+
+}
+
 /* main section  */
+
 
 .container{
     width: 100%;
@@ -101,7 +132,7 @@ body{
 /* btn section  */
 .container-btn{
     width: 300px;
-    margin: 200px auto 0 auto;
+    margin: 50px auto 0 auto;
     text-align: center;
     padding: 15px 10px;
     background: #ffffff;
@@ -258,13 +289,18 @@ body{
     justify-content: space-evenly;
 }
 
-.one, .two, .three {
+.one, .two{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
 }
 
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -383,6 +419,67 @@ tbody td{
     /* text-align: center; */
 }
 
+
+/* lists section  */
+
+.lists{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-box .one-list{
+    width: 520px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.one-list h3{
+    margin-bottom: 8px;
+    font-weight: 600;
+    
+}
+
+.one-list ul li{
+    width: 500px;
+    list-style: none;
+    padding: 10px 20px;
+    background-color: #f02399;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.one-list ul li:last-child{
+    margin-bottom: 0;
+}
+
+.one-list ul li:hover{
+    border-left:8px solid #4b4a4a;
+    background-color: #f9ff21;
+    color: #4b4a4a;
+}
+
+.two-list{
+    margin-top: 20px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.two-list ul li{
+    display: inline-block;
+    width: 49%;
+}
+
+.two-list ul li:hover{
+    background-color: #f9ff21;
+    color: #4b4a4a;
+    border-left: none;
+}
 
 
 /* mobile section  */
